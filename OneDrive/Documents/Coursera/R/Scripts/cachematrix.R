@@ -34,7 +34,7 @@ cacheSolve <- function(x, ...) {
   
   # test to see if matrix_inverse is already cached
   if(! is.null(matrix_inverse)){
-    message("obtianing cached data")
+    message("Obtianing cached data...")
     return(matrix_inverse)
   }
   #if no inverse matrix cached, create inverse matrix
